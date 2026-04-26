@@ -1,0 +1,3 @@
+<?php
+require_once __DIR__ . '/includes/config.php';
+header('Location: ' . BASE . '/login.php?tab=register'); exit;
